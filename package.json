@@ -1,0 +1,59 @@
+{
+  "name": "active-chor-js",
+  "version": "0.0.1",
+  "description": "An extension of chor-js for blockchain-based active choreographies.",
+  "keywords": [
+    "choreography model",
+    "choreography",
+    "modeler",
+    "browser",
+    "choreo-js",
+    "toolkit",
+    "bpmn",
+    "blockchain"
+  ],
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "karma start"
+  },
+  "author": {
+    "name": "Jan Ladleif",
+    "url": "https://github.com/jan-ladleif"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bptlab/active-chor-js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-bpmn-io": "^0.8.2",
+    "karma": "^4.2.0",
+    "karma-browserify": "^5.2.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.0.0",
+    "karma-mocha": "^1.3.0",
+    "mocha": "^6.2.0",
+    "mocha-test-container-support": "^0.2.0",
+    "puppeteer": "^1.19.0",
+    "stringify": "^5.2.0",
+    "watchify": "^3.11.1"
+  },
+  "dependencies": {
+    "chor-js": "^0.4.0",
+    "bpmn-js": "^3.4.3",
+    "diagram-js": "^3.3.1",
+    "inherits": "^2.0.4",
+    "min-dash": "^3.5.0",
+    "tiny-svg": "^2.2.0"
+  }
+}

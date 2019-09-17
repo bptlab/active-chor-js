@@ -1,0 +1,14 @@
+node_modules
+test
+resources
+assets/icons/*
+!assets/icons/include/
+.eslintignore
+.eslintrc
+.travis.yml
+karma.conf.js
+_config.yml
+Gemfile
+Gemfile.lock
+docs
+_site
